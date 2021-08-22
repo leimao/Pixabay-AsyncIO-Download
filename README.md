@@ -36,7 +36,7 @@ $ python download_async.py \
     --update-image-urls
 ```
 
-This will consume the Pixabay API key `xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx`, read the images ids from `pixabay_ids.txt`, save the images urls to `pixabay_urls.txt`, and download all the images we have prepared to the directory `pixabay`.
+This will consume the Pixabay API key `xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx`, read the images ids from `pixabay_ids.txt`, save the images urls to `pixabay_urls.txt`, and download all the images to the directory `pixabay`.
 
 Alternatively, if the images urls file, such as, `pixabay_urls.txt` is already available, please run the following command in the terminal.
 
@@ -46,5 +46,5 @@ $ python download_async.py \
     --download-dir pixabay
 ```
 
-This will read the images urls from `pixabay_urls.txt` and download all the images we have prepared to the directory `pixabay`. No Pixabay API key is required to download the images from the urls.
+This will read the images urls from `pixabay_urls.txt` and download all the images to the directory `pixabay`. No Pixabay API key is required to download the images from the urls.
 
