@@ -4,12 +4,12 @@
 
 [Pixabay](https://pixabay.com/) is a vibrant community of creatives, sharing copyright free images, videos and music. All contents are released under the Pixabay License, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
 
-This application allows the user to download images in large scale from Pixabay asynchronously using Python `asyncio`.
+This application allows the user to download images in large scale from [Pixabay](https://pixabay.com/) asynchronously using Python `asyncio`.
 
 ## Dependencies
 
-* [aiohttp](https://docs.aiohttp.org/en/stable/)
-* [aiofiles](https://github.com/Tinche/aiofiles)
+* [`aiohttp`](https://docs.aiohttp.org/en/stable/)
+* [`aiofiles`](https://github.com/Tinche/aiofiles)
 
 ## Usages
 
