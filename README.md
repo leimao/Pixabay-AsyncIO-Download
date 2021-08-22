@@ -28,7 +28,12 @@ Please register a [Pixabay](https://pixabay.com/) account and obtain the [Pixaba
 To download the images, please prepare the Pixabay image ids in a file, such as `pixabay_ids.txt`, and run the following command in the terminal.
 
 ```bash
-$ python download_async.py --image-ids-filepath pixabay_ids.txt --image-urls-filepath pixabay_urls.txt --download-dir pixabay --pixabay-api-key xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx --update-image-urls
+$ python download_async.py \
+    --image-ids-filepath pixabay_ids.txt \
+    --image-urls-filepath pixabay_urls.txt \
+    --download-dir pixabay \
+    --pixabay-api-key xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx \
+    --update-image-urls
 ```
 
 This will consume the Pixabay API key `xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx`, read the images ids from `pixabay_ids.txt`, save the images urls to `pixabay_urls.txt`, and download all the images we have prepared to the directory `pixabay`.
@@ -36,7 +41,9 @@ This will consume the Pixabay API key `xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxx`, read
 Alternatively, if the images urls file, such as, `pixabay_urls.txt` is already available, please run the following command in the terminal.
 
 ```bash
-$ python download_async.py --image-urls-filepath pixabay_urls.txt --download-dir pixabay
+$ python download_async.py \
+    --image-urls-filepath pixabay_urls.txt \
+    --download-dir pixabay
 ```
 
 This will read the images urls from `pixabay_urls.txt` and download all the images we have prepared to the directory `pixabay`. No Pixabay API key is required to download the images from the urls.
